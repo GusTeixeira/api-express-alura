@@ -3,8 +3,8 @@ import mongoose from "mongoose";
 const livrosSchema = new mongoose.Schema({
 id: {type:String},
 titulo:{type:String, required:true},
-autor:{type:Number},
-editora:{type:Number},
+autor:{type:String},
+editora:{type:String},
 numeroPaginas:{type:Number}
 });
 
