@@ -5,6 +5,7 @@ id: {type:String},
 titulo:{type:String, required:true},
 autor:{type:mongoose.Schema.Types.ObjectId, ref: 'autores', required: true},
 editora:{type:String},
+categoria:{type:String},
 numeroPaginas:{type:Number}
 });
 
